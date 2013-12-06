@@ -1,0 +1,30 @@
+#Modelo de relatorio que deve ser gerado pelo futebol-test.c
+#Salvar como: relatorio-rede-nne-nni-nns-rodadaDeTeste.txt
+
+//NNE: numero de neuronios de entrada
+//NNI: intermediaria
+//NNS: saida
+
+#estatisticas de entrada (pode tentar outras)
+cruzamentosAproveitamento
+finalizacoes
+gols
+passesAproveitamento
+
+#configuracao da rede
+<num_neuronio_entrada>-<num_neuronio_intermediaria>-<num_neuronio_saida>
+taxa de aprendizagem:?
+taxa de momentum:?
+
+#resultados de treinamento
+MSE final:?
+Quantidade de épocas de treinamento:?
+Taxa de acertos (acertos/total):?/?
+
+
+#######
+O que pode ser alterado no treinamento
+Taxa de aprendizagem: 0.001 até 0.99
+Taxa de momentum: 0.00 até 0.99
+Num neuronios intermediario: 3 até o triplo da entrada
+estatisticas de entrada
