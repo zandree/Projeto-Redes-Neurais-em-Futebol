@@ -1,0 +1,15 @@
+Estatisticas:
+-cruzamentosAproveitamento
+-finalizacoes
+-gols
+-passesAproveitamento
+
+rodada de inicio: 1
+rodada final: 37
+
+camada de entrada: 4
+camada escondida: 4
+camada de saida: 3
+
+taxa de aprendizagem: 0.6
+taxa de momentum: 0.8
