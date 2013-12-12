@@ -1,0 +1,3001 @@
+
+        Teste 1
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.151199
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 2
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.151087
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 3
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.148556
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 4
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.151511
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 5
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.150952
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 6
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.153770
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 7
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.149218
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 8
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.148460
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 9
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.151686
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 10
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.150608
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 11
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.148950
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 12
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.148271
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 13
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.150986
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 14
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.149001
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 15
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.148921
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 16
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.149014
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 17
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.149103
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 18
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.148368
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 19
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.149003
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 20
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.148685
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 21
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.148460
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 22
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.149040
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 23
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.147832
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 24
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.149216
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 25
+# Configuração da rede
+
+4-3-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.150943
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 26
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.145753
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 27
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.146679
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 28
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.144210
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 29
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.145753
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 30
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.147753
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 31
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.147804
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 32
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.145754
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 33
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.144526
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 34
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.144395
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 35
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.143788
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 36
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.144862
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 37
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.144038
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 38
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.146631
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 39
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.144872
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 40
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.144136
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 41
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.145754
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 42
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.142106
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 43
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.149463
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 44
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.146466
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 45
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.144846
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 46
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.144104
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 47
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.142057
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 48
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.143683
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 49
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.145752
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 50
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.145549
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 51
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.142087
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 52
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.142785
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 53
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.144276
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 54
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.143487
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 55
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.146489
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 56
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.142240
+Epocas: 10000
+Taxa de acertos = 8/10 = 0.800000
+
+
+------------------------
+        Teste 57
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.143638
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 58
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.144188
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 59
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.145536
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 60
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.141129
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 61
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.140005
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 62
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.145728
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 63
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.139358
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 64
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.143569
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 65
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.144555
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 66
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.143498
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 67
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.138864
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 68
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.141998
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 69
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.142339
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 70
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.146380
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 71
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.142084
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 72
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.144012
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 73
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.140870
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 74
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.143298
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 75
+# Configuração da rede
+
+4-5-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.142946
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 76
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.137822
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 77
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.143470
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 78
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.138447
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 79
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.133829
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 80
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.141131
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 81
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.137900
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 82
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.137231
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 83
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.137238
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 84
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.141084
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 85
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.140987
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 86
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.140712
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 87
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.138737
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 88
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.138898
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 89
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.142925
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 90
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.140699
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 91
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.140419
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 92
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.138781
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 93
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.140882
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 94
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.139609
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 95
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.140951
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 96
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.142460
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 97
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.140703
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 98
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.141366
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 99
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.139759
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 100
+# Configuração da rede
+
+4-6-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.143080
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 101
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.133489
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 102
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.137834
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 103
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.136545
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 104
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.137386
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 105
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.140669
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 106
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.140025
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 107
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.135656
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 108
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.137054
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 109
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.139107
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 110
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.137688
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 111
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.139833
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 112
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.137287
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 113
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.139634
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 114
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.137085
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 115
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.138656
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 116
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.137723
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 117
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.137715
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 118
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.139333
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 119
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.139736
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 120
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.136274
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 121
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.137596
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 122
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.139286
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 123
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.141301
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 124
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.137650
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 125
+# Configuração da rede
+
+4-7-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.136896
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 126
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.138518
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 127
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.143925
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 128
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.138327
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 129
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.130625
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 130
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.135846
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 131
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.138576
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 132
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.132513
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 133
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.137074
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 134
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.133247
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 135
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.133790
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 136
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.134367
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 137
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.134040
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 138
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.136432
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 139
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.141020
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 140
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.134627
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 141
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.137401
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 142
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.138263
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 143
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.136282
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 144
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.135065
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 145
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.135680
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 146
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.137673
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 147
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.146024
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 148
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.134613
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 149
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.132906
+Epocas: 10000
+Taxa de acertos = 8/10 = 0.800000
+
+
+------------------------
+        Teste 150
+# Configuração da rede
+
+4-8-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.136533
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 151
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.131702
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 152
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.131939
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 153
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.139238
+Epocas: 10000
+Taxa de acertos = 2/10 = 0.200000
+
+
+------------------------
+        Teste 154
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.131587
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 155
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.133104
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 156
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.133307
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 157
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.134784
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 158
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.131058
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 159
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.135745
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 160
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.131000
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 161
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.137609
+Epocas: 10000
+Taxa de acertos = 8/10 = 0.800000
+
+
+------------------------
+        Teste 162
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.135854
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 163
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.132719
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 164
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.135181
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 165
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.134789
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 166
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.133888
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 167
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.135742
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 168
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.134520
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 169
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.132725
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 170
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.132918
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 171
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.136099
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 172
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.133687
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 173
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.134859
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 174
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.130531
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 175
+# Configuração da rede
+
+4-9-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.134900
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 176
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.129045
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 177
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.133630
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 178
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.132847
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 179
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.130129
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 180
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.300000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.137259
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 181
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.131652
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 182
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.134465
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 183
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.125880
+Epocas: 10000
+Taxa de acertos = 2/10 = 0.200000
+
+
+------------------------
+        Teste 184
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.130377
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 185
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.400000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.128994
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 186
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.134512
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 187
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.128628
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 188
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.133004
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 189
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.128540
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 190
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.500000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.127128
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 191
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.133877
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
+        Teste 192
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.128419
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 193
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.128729
+Epocas: 10000
+Taxa de acertos = 7/10 = 0.700000
+
+
+------------------------
+        Teste 194
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.127521
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 195
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.600000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.133649
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 196
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.300000
+
+# Configurações de treinamento
+
+Mse Final: 0.131043
+Epocas: 10000
+Taxa de acertos = 3/10 = 0.300000
+
+
+------------------------
+        Teste 197
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.400000
+
+# Configurações de treinamento
+
+Mse Final: 0.132778
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 198
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.500000
+
+# Configurações de treinamento
+
+Mse Final: 0.133957
+Epocas: 10000
+Taxa de acertos = 4/10 = 0.400000
+
+
+------------------------
+        Teste 199
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.600000
+
+# Configurações de treinamento
+
+Mse Final: 0.136420
+Epocas: 10000
+Taxa de acertos = 5/10 = 0.500000
+
+
+------------------------
+        Teste 200
+# Configuração da rede
+
+4-10-3
+Taxa de aprendizagem: 0.700000
+Taxa de momentum: 0.700000
+
+# Configurações de treinamento
+
+Mse Final: 0.122863
+Epocas: 10000
+Taxa de acertos = 6/10 = 0.600000
+
+
+------------------------
