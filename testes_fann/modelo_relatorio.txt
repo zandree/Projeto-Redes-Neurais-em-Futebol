@@ -3,7 +3,7 @@
 
 //NNE: numero de neuronios de entrada
 //NNI: intermediaria
-//NNS: saida
+//NNS: saidas
 
 #estatisticas de entrada (pode tentar outras)
 cruzamentosAproveitamento
@@ -13,16 +13,29 @@ passesAproveitamento
 
 #configuracao da rede
 <num_neuronio_entrada>-<num_neuronio_intermediaria>-<num_neuronio_saida>
-taxa de aprendizagem:?
-taxa de momentum:?
+taxa de aprendizagem:? (train)
+taxa de momentum:? (train)
 
 #resultados de treinamento
-MSE final:?
+MSE final:? 
 Quantidade de épocas de treinamento:?
 Taxa de acertos (acertos/total):?/?
 
 
 #######
+for(i=3; i <= 10; i++)
+{
+	for(j=0.3; j <= 0.5; j += 0.1)
+	{
+		for(k=0.3; k <= 0.5; k++)
+		{
+		
+		}
+	}
+}
+3~10 neuros hiddens
+	pra cada um desses, testar 3 taxas de aprendizagem(0.3, 0.5, 0.7) e 3 txas de momentum(0.3, 0.5, 0.7)
+
 O que pode ser alterado no treinamento
 Taxa de aprendizagem: 0.001 até 0.99
 Taxa de momentum: 0.00 até 0.99
