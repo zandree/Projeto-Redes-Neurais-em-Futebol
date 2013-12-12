@@ -2,6 +2,7 @@
 #include "floatfann.h"
 int main(int argc, char *argv[])
 {
+	//FILE *arquivo = fopen("teste.data", "r");
 	FILE *arquivo = fopen("teste.data", "r");
 	
 	int entradas = atoi(argv[1]);

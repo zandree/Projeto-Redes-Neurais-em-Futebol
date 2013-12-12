@@ -57,13 +57,13 @@ int main(int argc, char *argv[])
 	
 	for(i=3; i <= 10; i++) // Neurônios escondidos
 	{
-		for(j=3; j <= 7; j+=2) // Taxa de aprendizagem j / 10
+		for(j=3; j <= 7; j++) // Taxa de aprendizagem j / 10
 		{
-			for(k=3; k <= 7; k+=2) // Taxa de momentum k / 10
+			for(k=3; k <= 7; k++) // Taxa de momentum k / 10
 			{
 				voltas++;
 				//fprintf(saida, "        Teste %i\n", voltas);
-				printf("Voltas: %i / %i\n", voltas, (10+1 - 3)*(3)*(3));
+				printf("Voltas: %i / %i\n", voltas, (10+1 - 3)*(7+1 - 3)*(7+1 - 3));
 				
 				//fprintf(saida, "# Configuração da rede\n");
 				//fprintf(saida, "\n%i-%i-%i\n", qtdEntradas, i, 3);
