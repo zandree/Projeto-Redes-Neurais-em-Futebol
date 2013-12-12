@@ -63,14 +63,13 @@ int main(int argc, char *argv[])
 			{
 				voltas++;
 				//fprintf(saida, "        Teste %i\n", voltas);
-				printf("Voltas: %i / %i\n", voltas, (10+1 - 3)*(3)*(3));
-				
+				printf("Voltas: %i / %i\n", voltas, 72);
 				//fprintf(saida, "# Configuração da rede\n");
 				//fprintf(saida, "\n%i-%i-%i\n", qtdEntradas, i, 3);
-				
+				printf("oi");
 				//id;rede;txa;txm;mse;epocas;txacerto
-				fprintf(saida, "%i;%i-%i-%i;%f;%f;", voltas,qtdEntradas,i,3,(float)j/10,(float)k/10);
-				
+				//fprintf(saida, "%i;%i-%i-%i;%f;%f;", voltas, qtdEntradas, i, 3, (float)j/10.0, (float)k/10.0);
+				printf("ei");
 				treinarRede(i, (float)j / 10.0, (float)k / 10.0);
 				
 				testarRede();

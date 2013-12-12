@@ -8,13 +8,18 @@ $array2 = array( "a", "a", "a", "a", "a", "e", "e", "e", "e", "i", "i", "i", "i"
 return str_replace($array1, $array2, $texto);
 }
 
-$arquivo = fopen("conteudo-jogo1.js", "w");
+//Testes de escrita
+//$arquivo = fopen("conteudo-jogo1.js", "w");
+//$diretorio = "andre/01/rodada";
+//mkdir($diretorio, 0777, true);
+
+$ano = $_GET['ano'];
 
 for($rodada=1;$rodada<=38;$rodada++)
 {
-	$url = 'http://esporte.uol.com.br/futebol/campeonatos/brasileiro/2012/serie-a/estatisticas/fases/fase-unica/rodada_'.$rodada.'_jogos.js';
+	$url = 'http://esporte.uol.com.br/futebol/campeonatos/brasileiro/'.$ano.'/serie-a/estatisticas/fases/fase-unica/rodada_'.$rodada.'_jogos.js';
 
-	//echo $url."<BR><BR>";
+	echo $url."<BR><BR>";
 
 	$dados = file_get_contents($url);
 	$dados = utf8_encode($dados);
@@ -22,18 +27,28 @@ for($rodada=1;$rodada<=38;$rodada++)
 	$dados = strtolower($dados);
 	$dados = str_replace("sao paulo", "sao-paulo", $dados);
 	$dados = str_replace("ponte preta", "ponte-preta", $dados);
+	$dados = str_replace("gremio prudente", "gremio-prudente", $dados);
 	$tam = strlen($dados);
 
-	$inicio = strpos($dados,'{');
+	$inicio = strpos($dados,'({');
 
-	$dados = substr($dados, $inicio, ($tam-$inicio-2));//substr($string, $start, $lenght)
+	$dados = substr($dados, $inicio+1, ($tam-$inicio-4));//substr($string, $start, $lenght)
+	
+	//Salvando os arquivos JSON com as rodadas (geraRodadas)
+	$nomeArquivo = "rodada_".$rodada."_jogos.js";
+	$diretorio = "backup/geraRodadas-".$ano;
+	mkdir($diretorio, 0777, true);
+	$arquivo = fopen($diretorio."/".$nomeArquivo, "w");
+	fwrite($arquivo, $dados);
+	fclose($arquivo);
 
 	//echo "<p>".$dados."</p>";
-
+	
+	//Converte JSON para array do PHP
 	$dados = json_decode($dados, true);
 
-	//$error = json_last_error();//Verifica erros no json_decode()
-	//echo <p>Codigo do erro: ".$error."</p>";
+	$error = json_last_error();//Verifica erros no json_decode()
+	//echo "<p>Codigo do erro: ".$error."</p>";
 
 	//echo $error;
 
@@ -66,11 +81,10 @@ for($rodada=1;$rodada<=38;$rodada++)
 	+'-'+dataJogo[2]+'-'+dataJogo[1]+'.jhtm';
 	*/
 
-	$EstatisticasURL = "http://esporte.uol.com.br/futebol/campeonatos/brasileiro/2012/serie-a/estatisticas/jogos/";
+	$EstatisticasURL = "http://esporte.uol.com.br/futebol/campeonatos/brasileiro/".$ano."/serie-a/estatisticas/jogos/";
 	
-		
-		
-
+	//Comentar o foreach abaixo para executar somente para salvar os geraRodadas
+	
 
 	foreach($dados['jogos'] as $jogo => $v)
 	{
@@ -81,34 +95,37 @@ for($rodada=1;$rodada<=38;$rodada++)
 		
 		if($rodada <= 9)
 		{
-		   $diretorio = ("backup/"."0".$rodada);
+			$diretorio = ("backup/".$ano."/"."0".$rodada);
 		}else
 		{
-			$diretorio = ("backup/".$rodada);
+			$diretorio = ("backup/".$ano."/".$rodada);
 		}
 		
-		if(file_exists($diretorio))
+		if(!file_exists($diretorio))
 		{
-			echo "Arquivo existe";
-			$tam = strlen($codigoFonteLink);
-
-			$inicio = strpos($codigoFonteLink,'{');
-
-			$codigoFonteLink = substr($codigoFonteLink, $inicio, ($tam-$inicio-2));//substr($string, $start, $lenght)
-
-			$arquivo = fopen($diretorio."/".$time1."-x-".$time2."-".$dados['jogos'][$jogo]['datajogo'][2]."-".$dados['jogos'][$jogo]['datajogo'][1].".js",  "w");
-			fwrite($arquivo, $codigoFonteLink."\n");
-		}else{
-			echo "Arquivo nao existe";
-			mkdir($diretorio);
+			echo "Arquivo nao existe!"."<br>";
+			mkdir($diretorio, 0777, true);
+			echo "Diretorio: ".$diretorio."<br>";			
 		}
+		//echo "Arquivo existe!";
+		$tam = strlen($codigoFonteLink);
+
+		$inicio = strpos($codigoFonteLink,'({');
+
+		$codigoFonteLink = substr($codigoFonteLink, $inicio+1, ($tam-$inicio-4));//substr($string, $start, $lenght)
+
+		$arquivo = fopen($diretorio."/".$time1."-x-".$time2."-".$dados['jogos'][$jogo]['datajogo'][2]."-".$dados['jogos'][$jogo]['datajogo'][1].".js",  "w");
+		fwrite($arquivo, $codigoFonteLink."\n");
+		fclose($arquivo);
+		
 		
 		
 		
 		//$arquivo = fopen("backup//".$rodada."//".$time1."-x-".$time2."-".$dados['jogos'][$jogo]['datajogo'][2]."-".$dados['jogos'][$jogo]['datajogo'][1].".js", "w");
 		//echo "<a href=\"".$linkJogo."\">".$linkJogo."</a>";
-		echo $linkJogo."<br>";
+		//echo $linkJogo."<br>";
 	}
+	
 
 }
 
