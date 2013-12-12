@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     //sprintf(nomedoArquivo, "rede-%i-%i-%i-v%.1f.txt", qtdEntradas, qtdEscondidos, 3, versao);
     //printf("Nome do arquivo: %s", nomedoArquivo);
     
-    sprintf(nomedoArquivo, "relatorioFinal.txt");
+    sprintf(nomedoArquivo, "relatorioFinal.csv");
     
     saida = fopen(nomedoArquivo, "a");
     
@@ -62,17 +62,23 @@ int main(int argc, char *argv[])
 			for(k=3; k <= 7; k++) // Taxa de momentum k / 10
 			{
 				voltas++;
-				fprintf(saida, "        Teste %i\n", voltas);
-				printf("Voltas: %i / %i\n", voltas, (10+1 - 3)*(7+1  - 3)*(7+1 - 3));
+				//fprintf(saida, "        Teste %i\n", voltas);
+				printf("Voltas: %i / %i\n", voltas, (10+1 - 3)*(7+1 - 3)*(7+1 - 3));
 				
-				fprintf(saida, "# Configuração da rede\n");
-				fprintf(saida, "\n%i-%i-%i\n", qtdEntradas, i, 3);
+				//fprintf(saida, "# Configuração da rede\n");
+				//fprintf(saida, "\n%i-%i-%i\n", qtdEntradas, i, 3);
+				
+				//id;rede;txa;txm;mse;epocas;txacerto
+				fprintf(saida, "%i;%i-%i-%i;%f;%f;", voltas,qtdEntradas,i,3,(float)j/10,(float)k/10);
+				
 				treinarRede(i, (float)j / 10.0, (float)k / 10.0);
 				
 				testarRede();
 				
-				fprintf(saida, "\n\n------------------------\n", voltas);
+				//fprintf(saida, "\n\n------------------------\n", voltas);
 				
+				//id;rede;txa;txm;mse;epocas;txacerto
+				fprintf(saida, "\n");
 				
 			}
 		}
@@ -100,12 +106,12 @@ void treinarRede(const int neuroniosEscondidos, float taxaAprendizagem, float ta
 	fann_set_learning_rate(ann, taxaAprendizagem); // Define a taxa de aprendizagem
 	if(modoDebug == 1)
 		printf("Taxa de aprendizado: %f\n", fann_get_learning_rate(ann)); // Pega a taxa de aprendizagem
-	fprintf(saida, "Taxa de aprendizagem: %f\n", fann_get_learning_rate(ann)); // Imprime no arquivo a taxa de aprendizagem
+	//fprintf(saida, "Taxa de aprendizagem: %f\n", fann_get_learning_rate(ann)); // Imprime no arquivo a taxa de aprendizagem
 		
 	fann_set_learning_momentum(ann, taxaMomentum); // Define a taxa de momentum
 	if(modoDebug == 1)
 		printf("Taxa de momentum: %f\n", fann_get_learning_momentum(ann)); // Pega a taxa de momentum
-	fprintf(saida, "Taxa de momentum: %f\n", fann_get_learning_momentum(ann)); // Imprime no arquivo a taxa de momentum
+	//fprintf(saida, "Taxa de momentum: %f\n", fann_get_learning_momentum(ann)); // Imprime no arquivo a taxa de momentum
 		
 	fann_set_callback(ann, test_callback);
 			
@@ -114,10 +120,12 @@ void treinarRede(const int neuroniosEscondidos, float taxaAprendizagem, float ta
 	fann_save(ann, "futebol_float.net"); // Salva a rede em um arquivo
 	fann_destroy(ann); // Libera a memória usada pela rede
 		
-    fprintf(saida, "\n# Configurações de treinamento\n"); // Imprime no arquivo
-    fprintf(saida, "\nMse Final: %f\n", mseFinal); // Imprime no arquivo o MSE final
-    fprintf(saida, "Epocas: %i", epocasTreinamento); // Imprime no arquivo a quantidade de épocas
+    //fprintf(saida, "\n# Configurações de treinamento\n"); // Imprime no arquivo
+    //fprintf(saida, "\nMse Final: %f\n", mseFinal); // Imprime no arquivo o MSE final
+    //fprintf(saida, "Epocas: %i", epocasTreinamento); // Imprime no arquivo a quantidade de épocas
     
+    //id;rede;txa;txm;mse;epocas;txacerto
+    fprintf(saida, "%f;%i;", mseFinal, epocasTreinamento);
     
     /*printf("Deseja testar a rede? (S/N)");
     char escolha;
@@ -263,7 +271,8 @@ void testarRede()
 	
 	if(modoDebug == 1)
 		printf("Taxa de acertos %d/%d = %f\n", acertos, 10, tx);
-	fprintf(saida, "\nTaxa de acertos = %i/%i = %f\n", acertos, 10, tx);
+	//fprintf(saida, "\nTaxa de acertos = %i/%i = %f\n", acertos, 10, tx);
+	fprintf(saida, "%i", acertos);
 	
 	fclose(arquivo);
 }

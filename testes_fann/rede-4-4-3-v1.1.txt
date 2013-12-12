@@ -1,0 +1,10 @@
+# Configuração da rede
+
+4-4-3
+Taxa de aprendizagem: 0.000000
+Taxa de momentum: 0.000000
+
+# Configurações de treinamento
+
+Mse Final: 0.150953
+Epocas: 10000
