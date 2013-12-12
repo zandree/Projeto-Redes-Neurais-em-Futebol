@@ -11,10 +11,11 @@ return str_replace($array1, $array2, $texto);
 echo "<a href=\"gerador.php\">Voltar</a>";
 
 $rodadaFinal = $_POST['final'];
+$ano = $_POST['ano'];
 
 $n = $rodadaFinal+1;//da pra usar aqui???
 
-$urlTodosJogos = 'backup/geraRodadas/rodada_'.$n.'_jogos.js';
+$urlTodosJogos = 'backup/geraRodadas-'.$ano.'/rodada_'.$n.'_jogos.js';
 $dadosTodosJogos = file_get_contents($urlTodosJogos);
 $dadosTodosJogos = utf8_encode($dadosTodosJogos);
 $dadosTodosJogos = retira_acentos($dadosTodosJogos);
@@ -104,7 +105,7 @@ if($arquivo)
 
 for($i=$rodadaInicial; $i <= $rodadaFinal; $i++)
 {
-	$diretorioListaJogosDaRodada = "./backup/geraRodadas/rodada_".$i."_jogos.js";
+	$diretorioListaJogosDaRodada = "./backup/geraRodadas-".$ano."/rodada_".$i."_jogos.js";
 	$listaTodosOsJogosDaRodada = file_get_contents($diretorioListaJogosDaRodada); // copia o conteúdo do arquivo
 	
 	$listaTodosOsJogosDaRodada = utf8_encode($listaTodosOsJogosDaRodada);
@@ -112,6 +113,7 @@ for($i=$rodadaInicial; $i <= $rodadaFinal; $i++)
 	$listaTodosOsJogosDaRodada = strtolower($listaTodosOsJogosDaRodada); // tudo minúsculo
 	$listaTodosOsJogosDaRodada = str_replace("sao paulo", "sao-paulo", $listaTodosOsJogosDaRodada); 
 	$listaTodosOsJogosDaRodada = str_replace("ponte preta", "ponte-preta", $listaTodosOsJogosDaRodada);
+	$listaTodosOsJogosDaRodada = str_replace("gremio prudente", "gremio-prudente", $listaTodosOsJogosDaRodada);
 	$tam = strlen($listaTodosOsJogosDaRodada); // tamanho do conteúdo
 	
 	$inicio = strpos($listaTodosOsJogosDaRodada,'{');
@@ -120,10 +122,10 @@ for($i=$rodadaInicial; $i <= $rodadaFinal; $i++)
 	
 	if($i <= 9)
 	{
-		$caminhoDoArquivoJogoParte1 = "backup/rodadas/0".$i; // ..01.02..
+		$caminhoDoArquivoJogoParte1 = "backup/".$ano."/0".$i; // ..01.02..
 	}else
 	{
-		$caminhoDoArquivoJogoParte1  = "backup/rodadas/".$i; // 10, 11
+		$caminhoDoArquivoJogoParte1  = "backup/".$ano."/".$i; // 10, 11
 	}
 	
 	$caminhoDoArquivoJogoParte2 = array();
@@ -244,7 +246,7 @@ foreach($times as $k => $v)
 $arquivo = fopen("testes_fann/teste.data", "w");
 
 $i = $rodadaFinal+1;
-$diretorioListaJogosDaRodada = "./backup/geraRodadas/rodada_".$i."_jogos.js";
+$diretorioListaJogosDaRodada = "./backup/geraRodadas-".$ano."/rodada_".$i."_jogos.js";
 $listaTodosOsJogosDaRodada = file_get_contents($diretorioListaJogosDaRodada); // copia o conteúdo do arquivo
 
 $listaTodosOsJogosDaRodada = utf8_encode($listaTodosOsJogosDaRodada);
@@ -252,6 +254,7 @@ $listaTodosOsJogosDaRodada = retira_acentos($listaTodosOsJogosDaRodada);
 $listaTodosOsJogosDaRodada = strtolower($listaTodosOsJogosDaRodada); // tudo minúsculo
 $listaTodosOsJogosDaRodada = str_replace("sao paulo", "sao-paulo", $listaTodosOsJogosDaRodada); 
 $listaTodosOsJogosDaRodada = str_replace("ponte preta", "ponte-preta", $listaTodosOsJogosDaRodada);
+$listaTodosOsJogosDaRodada = str_replace("gremio prudente", "gremio-prudente", $listaTodosOsJogosDaRodada);
 $tam = strlen($listaTodosOsJogosDaRodada); // tamanho do conteúdo
 
 $inicio = strpos($listaTodosOsJogosDaRodada,'{');

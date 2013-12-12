@@ -17,7 +17,7 @@
 <?php
 	//URL de um jogo isolado
 	$pwd = getcwd();
-	$url = $pwd.'/backup/rodadas/01/botafogo-x-sao-paulo-20-05.js';
+	$url = $pwd.'/backup/2012/01/botafogo-x-sao-paulo-20-05.js';
 
 	//Pega os dados do jogo e converte para UTF-8
 	$dados = file_get_contents($url);
@@ -52,6 +52,19 @@
 <p> O arquivo de testes contém as médias das estatísticas de cada time entre a rodada de início e a rodada final escolhidas. Não é a média do campeonato inteiro. As médias dos times no arquivo de testes deve estar na ordem dos jogos da rodada posterior a rodada final.</p> 
 
 <form action="geraArquivos-06-12.php" method="POST">
+	<fieldset>
+		<legend>Ano</legend>
+		<p>Ano do Brasileirão:
+			<select name="ano">
+				<?php
+				for($i=2010;$i<=2012;$i++)
+				{
+					echo "<option value=\"".$i."\">".$i."</option>";
+				}
+				?>
+			</select>
+		</p>
+	</fieldset>	
 	<fieldset>
 	<legend>Rodadas</legend>
 	<p>Rodada de início: 
