@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     //sprintf(nomedoArquivo, "rede-%i-%i-%i-v%.1f.txt", qtdEntradas, qtdEscondidos, 3, versao);
     //printf("Nome do arquivo: %s", nomedoArquivo);
     
-    sprintf(nomedoArquivo, "relatorioFinal.csv");
+    sprintf(nomedoArquivo, "relatorioFinal2.csv");
     
     saida = fopen(nomedoArquivo, "a");
     
@@ -57,22 +57,22 @@ int main(int argc, char *argv[])
 	
 	for(i=3; i <= 10; i++) // Neurônios escondidos
 	{
-		for(j=3; j <= 7; j+=2) // Taxa de aprendizagem j / 10
+		for(j=3; j <= 7; j++) // Taxa de aprendizagem j / 10
 		{
-			for(k=3; k <= 7; k+=2) // Taxa de momentum k / 10
+			for(k=3; k <= 7; k++) // Taxa de momentum k / 10
 			{
 				voltas++;
 				//fprintf(saida, "        Teste %i\n", voltas);
-				printf("Voltas: %i / %i\n", voltas, 72);
+				printf("Voltas: %i / %i\n", voltas, 8*5*5);
 				//fprintf(saida, "# Configuração da rede\n");
 				//fprintf(saida, "\n%i-%i-%i\n", qtdEntradas, i, 3);
 				printf("oi");
 				//id;rede;txa;txm;mse;epocas;txacerto
 				//fprintf(saida, "%i;%i-%i-%i;%f;%f;", voltas, qtdEntradas, i, 3, (float)j/10.0, (float)k/10.0);
 				printf("ei");
-				treinarRede(i, (float)j / 10.0, (float)k / 10.0);
+				//treinarRede(i, (float)j / 10.0, (float)k / 10.0);
 				
-				testarRede();
+				//testarRede();
 				
 				//fprintf(saida, "\n\n------------------------\n", voltas);
 				
